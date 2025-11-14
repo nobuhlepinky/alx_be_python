@@ -1,5 +1,5 @@
-size_input = input("Enter the size of the pattern: ")
-size = int(size_input)
+
+size = int(input("Enter the size of the pattern: "))
 
 row_counter = 0
 
