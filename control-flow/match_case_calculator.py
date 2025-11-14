@@ -32,6 +32,5 @@ match operation:
             result = num1 / num2
             print(f"The result of division is: {result}")
 
-    case _:
-        print(f"Error: Unknown operation '{operation}'. Please use +, -, *, or /.")        
+   
 
