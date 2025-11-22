@@ -8,11 +8,11 @@ def main():
     shopping_list = []
     while True:
         display_menu()
-        choice = input("Enter your choice (1-4): ").strip()
+        choice = input("Enter your choice: ").strip()
 
         if choice == '1':
             
-            item_to_add = input("Enter the item name to add: ").strip()
+            item_to_add = input("Enter the item to add: ").strip()
             if item_to_add:
               
                 shopping_list.append(item_to_add.capitalize())
@@ -42,7 +42,7 @@ def main():
         
         else:
             
-            print("Invalid choice. Please enter a number between 1 and 4.")
+            print("Invalid choice. Please try again.")
 
 if __name__ == "__main__":
     main()
