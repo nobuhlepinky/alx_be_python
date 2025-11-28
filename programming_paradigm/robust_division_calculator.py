@@ -1,0 +1,15 @@
+def safe_divide(numerator_str, denominator_str):
+
+    try:
+        numerator = float(numerator_str)
+        denominator = float(denominator_str)
+        result = numerator / denominator
+        return f"The result of the division is {result}"
+    
+    except ZeroDivisionError:  
+        return "Error: Cannot divide by zero."
+    except ValueError:
+        return "Error: Please enter numeric values only."
+
+    except Exception as e:
+        return f"An unexpected error occurred: {type(e).__name__}"  
