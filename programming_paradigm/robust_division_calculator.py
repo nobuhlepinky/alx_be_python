@@ -1,8 +1,8 @@
-def safe_divide(numerator_str, denominator_str):
+def safe_divide(numerator, denominator):
 
     try:
-        numerator = float(numerator_str)
-        denominator = float(denominator_str)
+        numerator = float(numerator)
+        denominator = float(denominator)
         result = numerator / denominator
         return f"The result of the division is {result}"
     
